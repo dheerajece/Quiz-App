@@ -27,7 +27,7 @@ This project focuses on clean UI design, dynamic question handling, and real-tim
 
 ## 🔗 Live Demo
 
-👉 https://insiderhd.pages.dev/Prime/
+👉 https://dheerajece.github.io/Quiz-App/
 
 ## 📌 Future Improvements
 
