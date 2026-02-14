@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="startButton">
+      <button class="start-quiz-btn startBtn">Start Quiz</button>
+    </div>
+
+    <div class="infoBox">
+      <div class="info-box-title">Some Rules of Quiz</div>
+
+      <div class="info-list">
+        <div class="info-rows">
+          1. You will have only
+          <span class="info-row-span">15 seconds</span> per each question.
+        </div>
+        <div class="info-rows">
+          2. Once You select your answer, it can't be undone.
+        </div>
+        <div class="info-rows">
+          3. You can't select any option once time goes off.
+        </div>
+        <div class="info-rows">
+          4. You can't exit from the Quiz while you're playing.
+        </div>
+        <div class="info-rows">
+          5. You will get points on the basis of your correct answers.
+        </div>
+      </div>
+
+      <div class="footer">
+        <button class="exit-btn">Exit Quiz</button>
+        <button class="continue-btn">Continue</button>
+      </div>
+    </div>
+
+    <div class="quiz-box">
+      <div class="quiz-header-section">
+        <div class="quiz-titleContainer">
+          <span class="quiz-title">Awesome Quiz Application</span>
+          <div class="timelineContainer">
+            <span class="time-line-title">Time off</span>
+            <div class="time-line">00</div>
+          </div>
+        </div>
+        <div class="progressBar"></div>
+      </div>
+      <div class="quiz-content-section">
+        <div class="quetionText">
+          <!-- add your quetion text here -->
+        </div>
+        <div class="quetion-list-container">
+          <div class="options"></div>
+          <div class="options"></div>
+          <div class="options"></div>
+          <div class="options"></div>
+        </div>
+      </div>
+      <div class="quiz-footer-section">
+        <span class="quiz-footer-text">
+          <span class="highlited-text currrentQuestionIndicator">1</span>of
+          <span class="highlited-text">10</span>Quetions</span
+        >
+        <button class="nextBtn">Next Que</button>
+      </div>
+    </div>
+
+    <div class="resultBox">
+      <div class="CrownIcon">
+        <i class="fas fa-crown"></i>
+      </div>
+      <div class="completedText">
+        You've completed the Quiz!
+      </div>
+      <div class="scoreText">
+      </div>
+      <div class="result-box-buttons-container">
+        <button class="replay-quiz">Replay Quiz</button>
+        <button class="quit-quiz">Quit Quiz</button>
+      </div>
+      
+    </div>
+
+    <script src="quetions.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
